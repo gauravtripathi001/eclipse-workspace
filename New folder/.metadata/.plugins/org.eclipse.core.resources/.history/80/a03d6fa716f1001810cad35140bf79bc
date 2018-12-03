@@ -1,0 +1,12 @@
+package com.example.gui.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SimpleGui1 {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SimpleGui1.class, args);
+	}
+}

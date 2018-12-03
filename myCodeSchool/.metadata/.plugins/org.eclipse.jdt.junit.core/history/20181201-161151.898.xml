@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SubStringTest" project="TwoSum" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.synopsys.problem.SubStringTest" time="0.05" displayname="SubStringTest" uniqueid="[engine:junit-jupiter]/[class:com.synopsys.problem.SubStringTest]">
+    <testcase name="test1" classname="com.synopsys.problem.SubStringTest" time="0.025" displayname="test1()" uniqueid="[engine:junit-jupiter]/[class:com.synopsys.problem.SubStringTest]/[method:test1()]"/>
+    <testcase name="test2" classname="com.synopsys.problem.SubStringTest" time="0.002" displayname="test2()" uniqueid="[engine:junit-jupiter]/[class:com.synopsys.problem.SubStringTest]/[method:test2()]"/>
+    <testcase name="test3" classname="com.synopsys.problem.SubStringTest" time="0.006" displayname="test3()" uniqueid="[engine:junit-jupiter]/[class:com.synopsys.problem.SubStringTest]/[method:test3()]"/>
+    <testcase name="test4" classname="com.synopsys.problem.SubStringTest" time="0.016" displayname="test4()" uniqueid="[engine:junit-jupiter]/[class:com.synopsys.problem.SubStringTest]/[method:test4()]"/>
+  </testsuite>
+</testrun>

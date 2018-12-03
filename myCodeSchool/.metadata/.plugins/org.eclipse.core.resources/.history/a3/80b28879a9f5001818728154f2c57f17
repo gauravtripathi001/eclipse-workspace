@@ -1,0 +1,101 @@
+package com.synopsys.problem1;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+/**
+ * Program to solve the 2 sum problem
+ * Problem statement - Write classes to find any pairs of numbers in a sequence that add up to 10.
+ * 
+ * 
+ *
+ */
+public class TwoSum {
+	
+	/**
+	 * Method to return all the unique pairs in a given integer array that sum up to a target value
+	 * Time complexity - O(n)
+	 * Space complexity - Best/Average of O(1) and Worst case of O(n)
+	 * 
+	 * @param array
+	 * @param target
+	 * @return
+	 */
+	public Set<Pair> findPairsWithSum(int[] array, int target) {
+		if(array == null || array.length == 0) {
+			return null;
+		}
+		Set<Pair> uniquePairs = new HashSet<Pair>();
+		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+		for(int i=0; i<array.length; i++) {
+			int difference = target - array[i];
+			if(map.containsKey(array[i])) {
+				Pair pair = new Pair(difference, array[i]);
+				uniquePairs.add(pair);
+			} else {
+				map.put(difference, array[i]);
+			}
+		}
+		return uniquePairs;
+	}
+	
+	public static void main(String args[]) {
+		
+		TwoSum twoSum = new TwoSum();
+		
+		int[] test1 = {1, 8, 2, 3, 5, 7};
+		Set<Pair> uniquePairs1 = twoSum.findPairsWithSum(test1, 10);
+		Pair.printPairs(uniquePairs1);
+		
+		int[] test2 = {1, 8, 2, 3, 5, 7};
+		Set<Pair> uniquePairs2 = twoSum.findPairsWithSum(test2, 19);
+		Pair.printPairs(uniquePairs2);
+	}
+}
+
+/**
+ * Class to store the integer pairs
+ * 
+ *
+ */
+class Pair{
+	private int first;
+	private int second;
+	
+	/*
+	 * Overriding the constructor to maintain unique pairs
+	 * This avoids pairs like (2,4) and (4,2)
+	 */
+	Pair(int first, int second) {
+		if(first > second) {
+			this.first = second;
+			this.second = first; 
+		} else {
+			this.first = first;
+			this.second = second; 
+		}
+	}
+	
+	static void printPairs(Set<Pair> pairs) {
+		if(pairs != null && !pairs.isEmpty()) {
+			for(Pair pair : pairs) {
+				System.out.println(pair.first + "," + pair.second);
+			}
+		} else {
+			System.out.println("No input pairs");
+		}
+	}
+	
+	@Override
+	public int hashCode() {
+		return this.first + this.second;
+	}
+	
+	@Override
+	public boolean equals(Object object) {
+		Pair pair = (Pair)object;
+		return(pair.first == this.first && pair.second == this.second);
+	}
+}

@@ -1,0 +1,109 @@
+package com.synopsys.problem;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.Set;
+
+import org.junit.jupiter.api.Test;
+
+class TwoSumTest {
+
+	@Test
+	void test1() {
+		TwoSum twoSum = new TwoSum();
+		
+		int[] test1 = {1, 8, 2, 3, 5, 7};
+		Pair pair1=new Pair(2,8);
+		Pair pair2=new Pair(3,7);
+		Set<Pair> expected=new Set<Pair>() {
+			
+			@Override
+			public <T> T[] toArray(T[] a) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public Object[] toArray() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public int size() {
+				// TODO Auto-generated method stub
+				return 0;
+			}
+			
+			@Override
+			public boolean retainAll(Collection<?> c) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public boolean removeAll(Collection<?> c) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public boolean remove(Object o) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public Iterator<Pair> iterator() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public boolean isEmpty() {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public boolean containsAll(Collection<?> c) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public boolean contains(Object o) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public void clear() {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public boolean addAll(Collection<? extends Pair> c) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			@Override
+			public boolean add(Pair e) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+		};
+		expected.add(pair1);
+		expected.add(pair2);
+		Set<Pair> result = twoSum.findPairsWithSum(test1, 10);
+		
+		
+		assertEquals(expected,result);
+		//fail("Not yet implemented");
+	}
+
+}
