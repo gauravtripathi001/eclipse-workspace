@@ -1,0 +1,5 @@
+package com.dataflair.spark
+
+object WordCount {
+  
+}

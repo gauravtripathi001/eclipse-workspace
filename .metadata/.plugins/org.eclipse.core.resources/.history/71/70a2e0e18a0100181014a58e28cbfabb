@@ -1,0 +1,28 @@
+
+public class linkedList<T> {
+
+	
+	private static class llNode<T>{
+		private T data;
+		private llNode<T> next;
+		public llNode(T data) {
+			this.data=data;
+		}
+	}
+	private llNode<T> head;
+	private void add(T data) {
+		llNode<T> n=new llNode<T>(data);
+		if(head!=null) {
+		n.next=head;
+		
+		}
+		head=n;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		linkedList<Integer> l1=new linkedList<Integer>();
+		l1.add(1);
+		System.out.println(l1.head);
+	}
+
+}

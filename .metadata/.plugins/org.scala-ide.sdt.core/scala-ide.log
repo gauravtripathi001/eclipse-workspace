@@ -1,0 +1,524 @@
+2018-02-24 17:22:41,178 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-24 17:22:47,794 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-24 17:22:52,680 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-24 17:22:52,717 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-25 14:13:15,119 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-25 14:13:23,389 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-25 14:14:26,980 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaLineBreakpoint
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-25 14:14:51,123 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-02-25 18:00:09,952 ERROR [Thread-393] - System.err - Exception in thread "Thread-393"
+2018-02-25 18:00:09,952 ERROR [Thread-393] - System.err - java.util.ConcurrentModificationException
+2018-02-25 18:00:09,952 ERROR [Thread-393] - System.err - at java.util.HashMap$HashIterator.nextNode(Unknown Source)
+2018-02-25 18:00:09,956 ERROR [Thread-393] - System.err - at java.util.HashMap$KeyIterator.next(Unknown Source)
+2018-02-25 18:00:09,956 ERROR [Thread-393] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:742)
+2018-02-25 18:00:09,956 ERROR [Thread-393] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:666)
+2018-02-25 18:00:09,956 ERROR [Thread-393] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:742)
+2018-02-25 18:00:09,956 ERROR [Thread-393] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:666)
+2018-02-25 18:00:09,956 ERROR [Thread-393] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.removeSummaries(ProjectionSummary.java:171)
+2018-02-25 18:00:09,956 ERROR [Thread-393] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.internalUpdateSummaries(ProjectionSummary.java:150)
+2018-02-25 18:00:09,956 ERROR [Thread-393] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.access$3(ProjectionSummary.java:145)
+2018-02-25 18:00:09,956 ERROR [Thread-393] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary$Summarizer.run(ProjectionSummary.java:70)
+2018-02-25 18:32:26,140 ERROR [Thread-455] - System.err - Exception in thread "Thread-455"
+2018-02-25 18:32:26,140 ERROR [Thread-455] - System.err - java.util.ConcurrentModificationException
+2018-02-25 18:32:26,140 ERROR [Thread-455] - System.err - at java.util.HashMap$HashIterator.nextNode(Unknown Source)
+2018-02-25 18:32:26,140 ERROR [Thread-455] - System.err - at java.util.HashMap$KeyIterator.next(Unknown Source)
+2018-02-25 18:32:26,140 ERROR [Thread-455] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:742)
+2018-02-25 18:32:26,144 ERROR [Thread-455] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:666)
+2018-02-25 18:32:26,144 ERROR [Thread-455] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:742)
+2018-02-25 18:32:26,144 ERROR [Thread-455] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:666)
+2018-02-25 18:32:26,144 ERROR [Thread-455] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.removeSummaries(ProjectionSummary.java:171)
+2018-02-25 18:32:26,144 ERROR [Thread-455] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.internalUpdateSummaries(ProjectionSummary.java:150)
+2018-02-25 18:32:26,144 ERROR [Thread-455] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.access$3(ProjectionSummary.java:145)
+2018-02-25 18:32:26,144 ERROR [Thread-455] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary$Summarizer.run(ProjectionSummary.java:70)
+2018-02-26 11:40:53,435 ERROR [Thread-621] - System.err - Exception in thread "Thread-621"
+2018-02-26 11:40:53,436 ERROR [Thread-621] - System.err - java.util.ConcurrentModificationException
+2018-02-26 11:40:53,437 ERROR [Thread-621] - System.err - at java.util.HashMap$HashIterator.nextNode(Unknown Source)
+2018-02-26 11:40:53,437 ERROR [Thread-621] - System.err - at java.util.HashMap$KeyIterator.next(Unknown Source)
+2018-02-26 11:40:53,437 ERROR [Thread-621] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:742)
+2018-02-26 11:40:53,437 ERROR [Thread-621] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:666)
+2018-02-26 11:40:53,437 ERROR [Thread-621] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:742)
+2018-02-26 11:40:53,437 ERROR [Thread-621] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:666)
+2018-02-26 11:40:53,437 ERROR [Thread-621] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.removeSummaries(ProjectionSummary.java:171)
+2018-02-26 11:40:53,437 ERROR [Thread-621] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.internalUpdateSummaries(ProjectionSummary.java:150)
+2018-02-26 11:40:53,437 ERROR [Thread-621] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.access$3(ProjectionSummary.java:145)
+2018-02-26 11:40:53,437 ERROR [Thread-621] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary$Summarizer.run(ProjectionSummary.java:70)
+2018-10-06 20:08:45,879 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-10-06 20:08:52,003 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-10-06 20:08:57,557 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-10-06 20:08:58,268 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-11-12 11:50:03,514 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-11-12 11:53:55,229  WARN [ModalContext] - ScalaProject - Project DEMO has platform default sourceLevel.
+2018-11-12 11:53:55,229  WARN [ModalContext] - ScalaProject - Project DEMO runs on platform default installation.
+2018-11-12 11:54:40,991  WARN [ModalContext] - ScalaProject - Project DEMO has platform default sourceLevel.
+2018-11-12 11:54:40,991  WARN [ModalContext] - ScalaProject - Project DEMO runs on platform default installation.
+2018-11-12 11:54:41,495  WARN [Worker-1] - ScalaProject - Project DEMO has platform default sourceLevel.
+2018-11-12 11:54:41,495  WARN [Worker-1] - ScalaProject - Project DEMO runs on platform default installation.
+2018-11-12 11:54:52,445 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-11-12 11:54:52,553 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-11-12 11:56:33,913  WARN [main] - ScalaProject - Project DEMO has platform default sourceLevel.
+2018-11-12 11:56:33,913  WARN [main] - ScalaProject - Project DEMO runs on platform default installation.
+2018-11-12 11:56:36,823  WARN [main] - ScalaProject - Project DEMO has platform default sourceLevel.
+2018-11-12 11:56:36,823  WARN [main] - ScalaProject - Project DEMO runs on platform default installation.
+2018-11-12 11:56:37,303  WARN [Worker-1] - ScalaProject - Project DEMO has platform default sourceLevel.
+2018-11-12 11:56:37,303  WARN [Worker-1] - ScalaProject - Project DEMO runs on platform default installation.
+2018-11-12 11:56:48,982 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-11-12 11:58:44,285  WARN [Worker-15] - ScalaProject - Project DEMO has platform default sourceLevel.
+2018-11-12 11:58:44,285  WARN [Worker-15] - ScalaProject - Project DEMO runs on platform default installation.
+2018-11-17 17:12:46,007 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-11-17 17:12:53,345 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-11-17 17:12:58,525 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaLineBreakpoint
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-11-17 17:38:13,982  WARN [ModalContext] - ScalaProject - Project SparkScalaProject1 has platform default sourceLevel.
+2018-11-17 17:38:13,984  WARN [ModalContext] - ScalaProject - Project SparkScalaProject1 runs on platform default installation.
+2018-11-17 17:38:15,057  WARN [Worker-31] - ScalaProject - Project SparkScalaProject1 has platform default sourceLevel.
+2018-11-17 17:38:15,058  WARN [Worker-31] - ScalaProject - Project SparkScalaProject1 runs on platform default installation.
+2018-11-17 17:39:35,704  WARN [ModalContext] - ScalaProject - Project com.dataflair.wc has platform default sourceLevel.
+2018-11-17 17:39:35,704  WARN [ModalContext] - ScalaProject - Project com.dataflair.wc runs on platform default installation.
+2018-11-17 17:39:36,009  WARN [Worker-29] - ScalaProject - Project com.dataflair.wc has platform default sourceLevel.
+2018-11-17 17:39:36,016  WARN [Worker-29] - ScalaProject - Project com.dataflair.wc runs on platform default installation.
+2018-11-17 17:40:06,474  WARN [Worker-31] - ScalaProject - Project SparkScalaProject1 has platform default sourceLevel.
+2018-11-17 17:40:06,475  WARN [Worker-31] - ScalaProject - Project SparkScalaProject1 runs on platform default installation.
+2018-11-17 17:40:37,729  WARN [Worker-29] - ScalaProject - Project SparkScalaProject1 has platform default sourceLevel.
+2018-11-17 17:40:37,730  WARN [Worker-29] - ScalaProject - Project SparkScalaProject1 runs on platform default installation.
+2018-11-17 17:40:38,583  WARN [Java indexing] - ScalaProject - Project SparkScalaProject1 has platform default sourceLevel.
+2018-11-17 17:40:38,583  WARN [Java indexing] - ScalaProject - Project SparkScalaProject1 runs on platform default installation.
+2018-11-17 17:40:44,555 ERROR [Worker-25] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.ui.launchConfigurations.JavaApplicationLaunchShortcut
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-11-17 17:41:58,047  WARN [Worker-30] - ScalaProject - Project SparkScalaProject1 has platform default sourceLevel.
+2018-11-17 17:41:58,047  WARN [Worker-30] - ScalaProject - Project SparkScalaProject1 runs on platform default installation.
+2018-11-17 17:41:59,685  WARN [main] - ScalaProject - Project SparkScalaProject1 has platform default sourceLevel.
+2018-11-17 17:41:59,685  WARN [main] - ScalaProject - Project SparkScalaProject1 runs on platform default installation.
+2018-11-17 17:48:56,630  WARN [Worker-29] - ScalaProject - Project SparkScalaProject1 has platform default sourceLevel.
+2018-11-17 17:48:56,630  WARN [Worker-29] - ScalaProject - Project SparkScalaProject1 runs on platform default installation.
+2018-11-17 17:48:59,072  WARN [Java indexing] - ScalaProject - Project SparkScalaProject1 has platform default sourceLevel.
+2018-11-17 17:48:59,072  WARN [Java indexing] - ScalaProject - Project SparkScalaProject1 runs on platform default installation.
+2018-11-17 17:51:21,020  WARN [Worker-31] - ScalaProject - Project SparkScalaProject1 has platform default sourceLevel.
+2018-11-17 17:51:21,020  WARN [Worker-31] - ScalaProject - Project SparkScalaProject1 runs on platform default installation.
+2018-11-17 17:53:44,255  WARN [ModalContext] - ScalaProject - Project com.dataflair.wc has platform default sourceLevel.
+2018-11-17 17:53:44,255  WARN [ModalContext] - ScalaProject - Project com.dataflair.wc runs on platform default installation.
+2018-11-17 17:53:44,547  WARN [Worker-25] - ScalaProject - Project com.dataflair.wc has platform default sourceLevel.
+2018-11-17 17:53:44,547  WARN [Worker-25] - ScalaProject - Project com.dataflair.wc runs on platform default installation.
+2018-11-17 17:54:50,739  WARN [ModalContext] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 17:54:50,740  WARN [ModalContext] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 17:54:50,996  WARN [Worker-31] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 17:54:50,998  WARN [Worker-31] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 17:55:36,399  WARN [Worker-25] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 17:55:36,399  WARN [Worker-25] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 17:56:50,087  WARN [Worker-25] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 17:56:50,087  WARN [Worker-25] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 17:56:50,486  WARN [Java indexing] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 17:56:50,486  WARN [Java indexing] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 17:57:56,507  WARN [main] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 17:57:56,507  WARN [main] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:03:56,989  WARN [main] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:03:56,990  WARN [main] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:07:06,402  WARN [ModalContext] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:07:06,403  WARN [ModalContext] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:08:54,586  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:08:54,586  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:09:07,557  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:09:07,557  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:10:28,604  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:10:28,605  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:10:55,343 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-11-17 18:10:55,344 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-11-17 18:10:55,344 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-11-17 18:11:08,233  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:11:08,233  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:12:35,379  WARN [main] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:12:35,379  WARN [main] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:13:46,794  WARN [Java indexing] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:13:46,795  WARN [Java indexing] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:29:35,098  WARN [main] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:29:35,099  WARN [main] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:29:36,467  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2018-11-17 18:30:36,625  WARN [Java indexing] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:30:36,625  WARN [Java indexing] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:41:23,592  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:41:23,593  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:41:23,639  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:41:23,639  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:41:23,645  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:41:23,645  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:41:23,650  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:41:23,650  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:41:23,654  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:41:23,654  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:41:23,657  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:41:23,658  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:41:23,886 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [SparkScalaProject does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2469)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2202)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2224)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths(ClasspathManagement.scala:149)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths$(ClasspathManagement.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath(ClasspathManagement.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath$(ClasspathManagement.scala:135)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:498)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:485)
+	at org.scalaide.core.internal.project.ScalaProject.prepareCompilerSettings(ScalaProject.scala:438)
+	at org.scalaide.core.internal.project.ScalaProject.$anonfun$presentationCompiler$1(ScalaProject.scala:162)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:154)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:153)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:118)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:80)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:58)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit.forceReconcile(InteractiveCompilationUnit.scala:150)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit.forceReconcile$(InteractiveCompilationUnit.scala:149)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:71)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.handleReconciliation(ScalaReconcilingStrategy.scala:54)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:39)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:77)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:69)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+2018-11-17 18:41:23,906 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [SparkScalaProject does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2469)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2202)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2224)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths(ClasspathManagement.scala:149)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths$(ClasspathManagement.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath(ClasspathManagement.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath$(ClasspathManagement.scala:135)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:498)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:485)
+	at org.scalaide.core.internal.project.ScalaProject.prepareCompilerSettings(ScalaProject.scala:438)
+	at org.scalaide.core.internal.project.ScalaProject.$anonfun$presentationCompiler$1(ScalaProject.scala:162)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:154)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:153)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:118)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:80)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:58)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit.currentProblems(InteractiveCompilationUnit.scala:183)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit.currentProblems$(InteractiveCompilationUnit.scala:180)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.currentProblems(ScalaSourceFile.scala:71)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit.forceReconcile(InteractiveCompilationUnit.scala:151)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit.forceReconcile$(InteractiveCompilationUnit.scala:149)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:71)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.handleReconciliation(ScalaReconcilingStrategy.scala:54)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:39)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:77)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:69)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+2018-11-17 18:41:23,915 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [SparkScalaProject does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2469)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2202)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2224)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths(ClasspathManagement.scala:149)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths$(ClasspathManagement.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath(ClasspathManagement.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath$(ClasspathManagement.scala:135)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:498)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:485)
+	at org.scalaide.core.internal.project.ScalaProject.prepareCompilerSettings(ScalaProject.scala:438)
+	at org.scalaide.core.internal.project.ScalaProject.$anonfun$presentationCompiler$1(ScalaProject.scala:162)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:154)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:153)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:118)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:80)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.$anonfun$reconciled$3(ScalaSourceFileEditor.scala:105)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:226)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.$anonfun$reconciled$1(ScalaSourceFileEditor.scala:105)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.$anonfun$reconciled$5(ScalaSourceFileEditor.scala:478)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.$anonfun$reconciled$5$adapted(ScalaSourceFileEditor.scala:478)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:478)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:379)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.$anonfun$handleReconciliation$2(ScalaReconcilingStrategy.scala:65)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.$anonfun$handleReconciliation$2$adapted(ScalaReconcilingStrategy.scala:65)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.handleReconciliation(ScalaReconcilingStrategy.scala:65)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:39)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:77)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:69)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+2018-11-17 18:41:23,920 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [SparkScalaProject does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2469)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2202)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2224)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths(ClasspathManagement.scala:149)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths$(ClasspathManagement.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath(ClasspathManagement.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath$(ClasspathManagement.scala:135)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:498)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:485)
+	at org.scalaide.core.internal.project.ScalaProject.prepareCompilerSettings(ScalaProject.scala:438)
+	at org.scalaide.core.internal.project.ScalaProject.$anonfun$presentationCompiler$1(ScalaProject.scala:162)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:154)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:153)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:118)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:80)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.$anonfun$reconciled$3(ScalaSourceFileEditor.scala:105)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:226)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.$anonfun$reconciled$1(ScalaSourceFileEditor.scala:105)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.$anonfun$reconciled$5(ScalaSourceFileEditor.scala:478)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.$anonfun$reconciled$5$adapted(ScalaSourceFileEditor.scala:478)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:478)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:379)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.$anonfun$handleReconciliation$2(ScalaReconcilingStrategy.scala:65)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.$anonfun$handleReconciliation$2$adapted(ScalaReconcilingStrategy.scala:65)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.handleReconciliation(ScalaReconcilingStrategy.scala:65)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:39)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:77)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:69)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+2018-11-17 18:41:23,927 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [SparkScalaProject does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2469)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2202)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2224)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths(ClasspathManagement.scala:149)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths$(ClasspathManagement.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath(ClasspathManagement.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath$(ClasspathManagement.scala:135)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:498)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:485)
+	at org.scalaide.core.internal.project.ScalaProject.prepareCompilerSettings(ScalaProject.scala:438)
+	at org.scalaide.core.internal.project.ScalaProject.$anonfun$presentationCompiler$1(ScalaProject.scala:162)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:154)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:153)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:118)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:80)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.$anonfun$reconciled$3(ScalaSourceFileEditor.scala:105)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:226)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.$anonfun$reconciled$1(ScalaSourceFileEditor.scala:105)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.$anonfun$reconciled$5(ScalaSourceFileEditor.scala:478)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.$anonfun$reconciled$5$adapted(ScalaSourceFileEditor.scala:478)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:478)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:379)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.$anonfun$handleReconciliation$2(ScalaReconcilingStrategy.scala:65)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.$anonfun$handleReconciliation$2$adapted(ScalaReconcilingStrategy.scala:65)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.handleReconciliation(ScalaReconcilingStrategy.scala:65)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:39)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:77)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:69)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+2018-11-17 18:41:23,933 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [SparkScalaProject does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2469)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2202)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2224)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths(ClasspathManagement.scala:149)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths$(ClasspathManagement.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath(ClasspathManagement.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath$(ClasspathManagement.scala:135)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:498)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:485)
+	at org.scalaide.core.internal.project.ScalaProject.prepareCompilerSettings(ScalaProject.scala:438)
+	at org.scalaide.core.internal.project.ScalaProject.$anonfun$presentationCompiler$1(ScalaProject.scala:162)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:154)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:153)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:118)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:80)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:58)
+	at org.scalaide.ui.internal.editor.outline.ScalaOutlineReconcilingStrategy.updateOutlineView(ScalaOutlineReconcilingStrategy.scala:34)
+	at org.scalaide.ui.internal.editor.outline.ScalaOutlineReconcilingStrategy.reconcile(ScalaOutlineReconcilingStrategy.scala:19)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:77)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:69)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+2018-11-17 18:41:45,015  WARN [ModalContext] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:41:45,016  WARN [ModalContext] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:41:47,517  WARN [ModalContext] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:41:47,518  WARN [ModalContext] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:41:47,549  WARN [Worker-34] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:41:47,550  WARN [Worker-34] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:42:56,112  WARN [ModalContext] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:42:56,112  WARN [ModalContext] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:42:56,414  WARN [Worker-39] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:42:56,414  WARN [Worker-39] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:43:42,617  WARN [Worker-41] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:43:42,617  WARN [Worker-41] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:44:21,063  WARN [main] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:44:21,063  WARN [main] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:44:26,018  WARN [main] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:44:26,018  WARN [main] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:44:26,774  WARN [Worker-38] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:44:26,774  WARN [Worker-38] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:45:57,850  WARN [Worker-37] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 18:45:57,850  WARN [Worker-37] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 18:45:58,977 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-11-17 18:45:58,979 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-11-17 18:45:58,980 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-11-17 18:47:24,138 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-11-17 18:47:24,139 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-11-17 18:47:24,139 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-11-17 19:49:56,330 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-11-17 19:49:57,501  WARN [main] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 19:49:57,501  WARN [main] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 19:49:57,501  WARN [main] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 19:49:57,501  WARN [main] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 19:50:12,780 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaLineBreakpoint
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-11-17 19:50:28,328  WARN [Worker-11] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 19:50:28,328  WARN [Worker-11] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 19:50:28,538  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 19:50:28,541  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 19:50:43,838 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-11-17 19:50:50,627  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2018-11-17 19:57:07,716 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-11-17 19:57:08,857  WARN [main] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 19:57:08,857  WARN [main] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 19:57:08,857  WARN [main] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 19:57:08,857  WARN [main] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 19:58:42,775 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaLineBreakpoint
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-11-17 19:58:56,359 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2018-11-17 20:07:01,855  WARN [ModalContext] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 20:07:01,858  WARN [ModalContext] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 20:07:05,325  WARN [ModalContext] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 20:07:05,325  WARN [ModalContext] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 20:07:14,561  WARN [main] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 20:07:14,561  WARN [main] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 20:08:39,826  WARN [main] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 20:08:39,826  WARN [main] - ScalaProject - Project SparkScalaProject runs on platform default installation.
+2018-11-17 20:08:39,826  WARN [main] - ScalaProject - Project SparkScalaProject has platform default sourceLevel.
+2018-11-17 20:08:39,826  WARN [main] - ScalaProject - Project SparkScalaProject runs on platform default installation.
